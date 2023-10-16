@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BD6228B9-8A6E-4639-82BD-29553F42EB2B}</ProjectGuid>
+    <ProjectGuid>{D05AF789-8956-4308-AC55-6F6D12D03B1E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Tyuiu.FominIN.Sprint2.Task0.V6.Test</RootNamespace>
-    <AssemblyName>Tyuiu.FominIN.Sprint2.Task0.V6.Test</AssemblyName>
+    <RootNamespace>Tyuiu.FominIN.Sprint2.Task5.V4.Test</RootNamespace>
+    <AssemblyName>Tyuiu.FominIN.Sprint2.Task5.V4.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -57,9 +57,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.FominIN.Sprint2.Task0.V6.Lib\Tyuiu.FominIN.Sprint2.Task0.V6.Lib.csproj">
-      <Project>{e6022152-c967-48f6-814c-dbb627609b06}</Project>
-      <Name>Tyuiu.FominIN.Sprint2.Task0.V6.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.FominIN.Sprint2.Task5.V4.Lib\Tyuiu.FominIN.Sprint2.Task5.V4.Lib.csproj">
+      <Project>{010cc99a-8ed4-43df-98a3-04938cfcceb4}</Project>
+      <Name>Tyuiu.FominIN.Sprint2.Task5.V4.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
